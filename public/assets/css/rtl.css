@@ -1,0 +1,129 @@
+body {
+    font-family: 'Cairo', sans-serif
+}
+
+.main-nv {
+    direction: rtl
+}
+
+
+.main-nv .site-links ul li a {
+    margin-right: 20px;
+}
+
+.main-nv .site-links ul li a i {
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-nv .site-links ul li a {
+        margin-right: 15px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-nv .site-links ul li {
+        display: block;
+        margin: 15px 0
+    }
+}
+
+.main-nv .nav-options ul li .dropdown-menu{
+    text-align: right !important;
+}
+
+.main-header .trips ul {
+    direction: rtl
+}
+
+.main-header .trips .tipr-box {
+    direction: rtl;
+}
+
+.main-header .trips .tipr-box .filter .search-btn button i {
+    margin-left: 5px
+}
+
+.garter-offers .slider-box .slider-content ul li .content {
+    direction: rtl;
+}
+
+.trips-offer .trips-offer-content .row {
+    direction: rtl
+}
+
+@media screen and (max-width: 767px) {
+    .trips-offer .trips-offer-content .btn-trips {
+        float: right
+    }
+}
+
+.trips-offer .trips-offer-content ul li .trip-box .trip-info {
+    text-align: right !important;
+}
+
+.visa-offer ul li .visa-box {
+    direction: rtl;
+}
+
+.visa-offer ul li .visa-box .visa-details {
+    text-align: right !important;
+}
+
+.visa-offer ul li .visa-box .visa-details .visa-tag {
+    direction: rtl;
+}
+
+.visa-offer ul li .visa-box .visa-details .visa-tag i {
+    margin-left: 10px
+}
+
+.main-footer {
+    direction: rtl;
+    text-align: right !important;
+}
+
+.main-footer .newslette .input-email i {
+    right: 15px;
+    float: right;
+}
+
+.main-footer .contact div i {
+    margin-left: 15px;
+}
+
+.main-footer .info .container .row .col-md-3:nth-of-type(1) {
+    padding-right: 0
+}
+
+.main-footer .info .container .row .col-md-3.last {
+    padding-left: 0
+}
+
+@media screen and (max-width: 767px) {
+    .main-footer .info .container .row .col-md-3.last {
+        padding-right: 15px;
+        padding-left: 15px
+    }
+}
+
+.main-footer .info .container .follow a {
+    margin-right: 10px
+}
+
+#login_modal .modal-content {
+    direction: rtl
+}
+
+#login_modal .modal-content .modal-body .add-new i {
+    top: 15px;
+    right: 30px;
+}
+
+#login_modal .modal-content .modal-body .rig-options .row .col-md-6:nth-of-type(1){
+    text-align: right !important;
+}
+
+#login_modal .modal-content .modal-body .rig-options .row .col-md-6:nth-of-type(1){
+    text-align: left !important;
+}

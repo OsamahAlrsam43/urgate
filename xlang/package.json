@@ -1,0 +1,13 @@
+{
+  "name": "patches",
+  "version": "1.0.0",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "extract-zip": "^1.6.7",
+    "fs-extra": "^8.1.0",
+    "lignator": "^1.0.2",
+    "ora": "^4.0.3",
+    "prompts": "^2.3.0",
+    "replace-in-file": "^5.0.2"
+  }
+}

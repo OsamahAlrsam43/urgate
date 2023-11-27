@@ -1,0 +1,159 @@
+/* Large Devices, Wide Screens */
+
+
+
+@media only screen and (max-width: 1400px) {
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+.fly-ticket-company,.fly-ticket-destinations,.fly-ticket-features {
+    width: 100%;
+    border-left: inherit;
+    border-bottom: 1px #eaeaea solid;
+    padding: 30px;
+}
+
+.fly-ticket-gp {
+    flex-wrap: wrap;
+}
+
+
+.fly-ticket-book {
+    width: 100%;
+}
+
+.fly-ticket-price {
+    padding: 30px;
+}
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+/* Force table to not be like tables anymore */
+	table, thead, tbody, th, th, tr { 
+        display: block; 
+        text-align: right;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	
+	.table th { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+        padding-left: 50%; 
+        padding: 0;
+	}
+	
+	.table th:before {
+		padding: 15px 0px;
+		white-space: nowrap;
+		display: inline-flex;
+		width: 50%;
+		justify-content: center;
+		color: #fff;
+		box-shadow: 0 2px 10px 0 rgba(0,0,0,0.12), 0 2px 5px 0 rgba(0,0,0,0.16);
+		background: #04527F;
+		margin-left:  10px;
+		}
+    .checkout-table th:nth-of-type(1):before { content: "رصيدك الحالي:"; }
+    .checkout-table th:nth-of-type(2):before { content: "سعر الرحلة للفرد:"; }
+    .checkout-table th:nth-of-type(3):before { content: "عدد المسافرين:"; }
+    .checkout-table th:nth-of-type(4):before { content: "السعر النهائي:"; }
+
+
+
+    .fly-table th:nth-of-type(1):before { content: "السعر النهائي:"; }
+    .fly-table th:nth-of-type(2):before { content: "الإلغاء بعد المغادرة:"; }
+    .fly-table th:nth-of-type(3):before { content: "عدم الحضور:"; }
+    .fly-table th:nth-of-type(4):before { content: "التغيير قبل المغادرة:"; }
+    .fly-table th:nth-of-type(5):before { content: "التغيير بعد المغادرة:"; }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+.input-gp {
+    width:calc(50% - 30px);
+    margin-top: 30px;
+}
+.input-gp.align-self-end{
+    width:100%;
+}
+.subscribe-title{
+    display: none!important;
+}
+.subscribe .input-gp {
+    margin: 20px 0px;
+    width: 100%;
+}
+.inner-head-gp {
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+.inner-head-gp .inner-head {
+    width: 100%;
+    justify-content: center;
+}
+.page-header span {
+    font-size: 22px;
+}
+.container-fluid {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.card-block-content img {
+    min-height: 278px;
+}
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 576px) {
+ul.card-list, p.card-desc{
+    display: none;
+}
+.custom-tabs li:first-child {
+    width: 100%;
+    text-align: center;
+}
+span.search-title {
+    margin: 20px 0;
+    display: block;
+}
+.inner-head span {
+    font-size: 18px;
+}
+
+.inner-head p {
+    font-size: 13px;
+}
+.add-btn {
+    width: 100%;
+}
+
+.submit-btn {
+    width: 100%;
+    margin-right:  0px;
+    margin-top:  30px;
+}
+
+.action-btns {
+    flex-wrap: wrap;
+}
+}
+
+

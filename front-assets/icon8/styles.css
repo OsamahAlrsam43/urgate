@@ -1,0 +1,125 @@
+/*
+ * Icon Font Nakhel
+ * Made with love by Icons8 [ https://icons8.com/ ] using FontCustom [ https://github.com/FontCustom/fontcustom ]
+ *
+ * Contacts:
+ *    [ https://icons8.com/contact ]
+ *
+ * Follow Icon8 on
+ *    Twitter [ https://twitter.com/icons_8 ]
+ *    Facebook [ https://www.facebook.com/Icons8 ]
+ *    Google+ [ https://plus.google.com/+Icons8 ]
+ *    GitHub [ https://github.com/icons8 ]
+ */
+
+
+@font-face {
+  font-family: "Nakhel";
+  src: url("Nakhel.eot");
+  src: url("Nakhel.eot?#iefix") format("embedded-opentype"),
+       url("Nakhel.woff2") format("woff2"),
+       url("Nakhel.woff") format("woff"),
+       url("Nakhel.ttf") format("truetype"),
+       url("Nakhel.svg#Nakhel") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Nakhel";
+    src: url("Nakhel.svg#Nakhel") format("svg");
+  }
+}
+
+[data-icons8]:before { content: attr(data-icons8); }
+
+.icons8, [data-icons8]:before,
+.icons8-add-user-male:before,
+.icons8-calendar:before,
+.icons8-calendar-with-ok-sign:before,
+.icons8-child:before,
+.icons8-children:before,
+.icons8-country:before,
+.icons8-done:before,
+.icons8-drop-down-arrow:before,
+.icons8-edit-file:before,
+.icons8-enter:before,
+.icons8-expensive-price:before,
+.icons8-facebook:before,
+.icons8-flight-seat:before,
+.icons8-grid:before,
+.icons8-home-page:before,
+.icons8-instagram:before,
+.icons8-language:before,
+.icons8-linkedin:before,
+.icons8-location-marker:before,
+.icons8-mail:before,
+.icons8-mail-open:before,
+.icons8-male:before,
+.icons8-menu:before,
+.icons8-origami-airplane:before,
+.icons8-passport:before,
+.icons8-password:before,
+.icons8-phone:before,
+.icons8-plane:before,
+.icons8-power-plug:before,
+.icons8-search:before,
+.icons8-travel:before,
+.icons8-tv:before,
+.icons8-twitter:before,
+.icons8-user:before,
+.icons8-user-groups:before,
+.icons8-view-details:before,
+.icons8-youtube-squared:before {
+  display: inline-block;
+  font-family: "Nakhel";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1.5;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icons8-add-user-male:before { content: "\f11e"; }
+.icons8-calendar:before { content: "\f10d"; }
+.icons8-calendar-with-ok-sign:before { content: "\f11b"; }
+.icons8-child:before { content: "\f112"; }
+.icons8-children:before { content: "\f111"; }
+.icons8-country:before { content: "\f107"; }
+.icons8-done:before { content: "\f11f"; }
+.icons8-drop-down-arrow:before { content: "\f10e"; }
+.icons8-edit-file:before { content: "\f11d"; }
+.icons8-enter:before { content: "\f100"; }
+.icons8-expensive-price:before { content: "\f11c"; }
+.icons8-facebook:before { content: "\f102"; }
+.icons8-flight-seat:before { content: "\f117"; }
+.icons8-grid:before { content: "\f115"; }
+.icons8-home-page:before { content: "\f106"; }
+.icons8-instagram:before { content: "\f103"; }
+.icons8-language:before { content: "\f101"; }
+.icons8-linkedin:before { content: "\f124"; }
+.icons8-location-marker:before { content: "\f10f"; }
+.icons8-mail:before { content: "\f114"; }
+.icons8-mail-open:before { content: "\f10b"; }
+.icons8-male:before { content: "\f110"; }
+.icons8-menu:before { content: "\f122"; }
+.icons8-origami-airplane:before { content: "\f11a"; }
+.icons8-passport:before { content: "\f109"; }
+.icons8-password:before { content: "\f127"; }
+.icons8-phone:before { content: "\f120"; }
+.icons8-plane:before { content: "\f108"; }
+.icons8-power-plug:before { content: "\f118"; }
+.icons8-search:before { content: "\f113"; }
+.icons8-travel:before { content: "\f10c"; }
+.icons8-tv:before { content: "\f119"; }
+.icons8-twitter:before { content: "\f104"; }
+.icons8-user:before { content: "\f126"; }
+.icons8-user-groups:before { content: "\f10a"; }
+.icons8-view-details:before { content: "\f116"; }
+.icons8-youtube-squared:before { content: "\f105"; }

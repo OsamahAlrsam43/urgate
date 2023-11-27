@@ -1,0 +1,4 @@
+[12-May-2020 08:42:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/asfariq/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/asfariq/public_html/config/cache.php on line 18

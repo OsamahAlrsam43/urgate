@@ -1,0 +1,161 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    direction: ltr;
+}
+.main-menu li:first-child {
+    margin: 0;
+}
+
+.main-menu li {
+    margin: 0 0 0 50px;
+}
+
+.main-menu li a i {
+    margin: 0 10px 0 0;
+}
+
+ul.first-menu-links li i {
+    margin: 0 10px 0 0;
+}
+
+ul.first-menu-links li {
+    margin: 0 0 0 50px;
+}
+
+ul.first-menu-links li:first-child {
+    margin: 0;
+}
+
+ul.first-menu-links {
+    margin: 0 30px 0 0;
+}
+
+.section-header i {
+    margin: 0 10px 0 0;
+}
+
+.card-block-content {
+    text-align: left;
+}
+
+a.card-block {
+    direction: ltr;
+}
+
+ul.card-list li i {
+    margin: 0 5px 0 0;
+}
+
+.card-section i {
+    margin: 0 5px 0 0;
+}
+
+.custom-tabs.nav-tabs .nav-item i {
+    margin: 0 5px 0 0;
+}
+
+.input-gp {text-align: left;}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    left: inherit;
+    right: 5px;
+}
+
+.input-gp > i {
+    right: inherit;
+    left: 10px;
+    bottom: 8px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding: 0 0 0 35px;
+}
+
+.input-gp input {
+    padding: 0 0 0 36px;
+}
+
+.input-gp button i {
+    margin: 0 10px 0 0;
+}
+
+.subscribe-title i {
+    margin: 0 10px 0 0;
+}
+
+a.view-all i {
+    margin: 0 10px 0 0;
+}
+
+.custom-carousel-next {
+    transform: rotate(-90deg);
+}
+
+.custom-carousel-prev {
+    transform: rotate(90deg);
+}
+
+.search-title {
+    margin: 0 30px 0 0;
+}
+.contact-info i {
+    margin: 0 10px 0 0;
+}
+
+ul.social-media li:last-child {
+    margin: 0;
+}
+.inner-head i {
+    margin: 0 10px 0 0;
+}
+
+.inner-head-gp i {
+    margin: 0 10px 0 0;
+}
+.submit-btn i {
+    margin: 0 10px 0 0;
+}
+
+.submit-btn {
+    margin: 0 0 0 30px;
+}
+
+.page-header i {
+    margin: 0 10px 0 0;
+}
+.custom-form-group label {
+    text-align: left;
+}
+.dropdown-menu {
+    text-align: left;
+}
+
+.dropdown-toggle::after {
+    margin: 0 0 0 5px;
+}
+.mobile-menu {
+    right: inherit;
+    left: 0;
+}
+
+.mobile-menu-overlay {
+    left: 300px;
+    width: 100%;
+}
+
+.mobile-menu ul li i {
+    margin: 0 10px 0 0;
+}
+
+.mobile-menu ul li a {
+    padding: 0 0 0 15px;
+}
+.form-control-feedback {
+    right: inherit;
+    left: 15px;
+}
+.custom-file-input {left: inherit;right: 0;}
+.add-btn i {
+    margin: 0 10px 0 0;
+}
